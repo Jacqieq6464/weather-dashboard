@@ -1,5 +1,18 @@
 # Weather-Dashboard
-Allows the user to choose a location and they will be given the forecasted weather for 5-days.
+Allows the user to choose a location and they will be given the forecasted weather for 5-days. 
+
+## Third Party API's
+
+
+
+## User Story
+
+```
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
+```
+
 ## Acceptance Criteria
 
 ```
