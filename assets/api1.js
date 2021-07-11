@@ -7,9 +7,7 @@ function generateURL(city){
     return `https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=${NUMBER_OF_DAYS_TO_FORECAST}&appid=${API_KEY}`;
 }
 
-// api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}
-
-function requestCity(url){
+function requestCityWeather(url){
     // callback function: when network request comes back with url, run the function below
     return fetch(url).then(function(response){
         return response.json()
